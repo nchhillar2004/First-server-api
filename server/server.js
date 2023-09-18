@@ -4,8 +4,10 @@ const config = require('./server.config.json');
 connectToMongo();
 
 const app = express()
+
+// Importing data(port, name) from server.config.json
 const port = config.app.port; // Port to run localhost
-const name = config.app.name;
+const name = config.app.name; // App name
 
 app.use(express.json());  // Parse incoming JSON data from HTTP requests
 
