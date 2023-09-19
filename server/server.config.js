@@ -4,8 +4,8 @@ const config = {
         name: "iNotebook",
     },
     database: {
-        port: "27017",
-        name: "inotebook",
+        port: "",
+        name: "",
     },
 };
 
