@@ -6,9 +6,10 @@ const config = {
     database: {
         port: "27017",
         name: "inotebook",
+        password: "nchhillar",
     },
 };
 
-config.database.uri = `mongodb://localhost:${config.database.port}/${config.database.name}?directConnection=true`;
+config.database.uri = `mongodb+srv://mern:${config.database.password}@cluster0.rzhlemb.mongodb.net/${config.database.name}?retryWrites=true&w=majority`;
 
 module.exports = config;

@@ -13,7 +13,7 @@ const connectToMongo = async () => {
     mongoose.connect(mongoURI);
     console.log("--------------------------------------------");
     console.log("🚀 Server Status:");
-    console.log(`    -Connected to MongoDB ${name} at port ${port}`);
+    console.log(`    -Connected to MongoDB ${name} Atlas`);
 };
 
 module.exports = connectToMongo;
