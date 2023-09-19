@@ -36,7 +36,52 @@ Before you begin, ensure you have met the following requirements:
 
 Follow these steps to get iNotebook up and running on your local machine:
 
-1. **Clone the Repository**: Begin by cloning this repository to your local machine:
+```bash
+# Clone the Repository
+git clone https://github.com/nchhillar2004/iNotebook.git
 
-   ```bash
-   git clone https://github.com/yourusername/iNotebook.git
+# Navigate to the Server Folder
+cd iNotebook/server
+
+# Install Server Dependencies
+npm install
+
+# Navigate to the Client Folder
+cd ../client
+
+# Install Client Dependencies
+npm install
+```
+
+# Set Up Environment Variables
+# In the server folder, create a .env file to store your environment variables.
+# You will need to define the following variable:
+# - JWT_SECRET: A secret key for JWT token generation.
+# In the server folder in "server.config.js" file, you will need to define the following variables:
+# - database.port : your mongoDB port.
+# - database.name : your mongoDB name.
+
+
+## Usage
+
+Once you have iNotebook up and running, you can:
+
+- **Register**: Create an account using a unique email address and a strong password.
+- **Login**: Sign in with your registered email and password.
+- **Add Notes**: Create, update, and delete notes with ease.
+- **Secure Authentication**: Enjoy the peace of mind knowing that your passwords are securely hashed using bcrypt.
+- **JWT Authentication**: JWT (JSON Web Tokens) authentication ensures secure and efficient user authentication.
+
+## Contributing
+
+Contributions to iNotebook are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add new feature'`.
+4. Push your changes to your fork: `git push origin feature-name`.
+5. Create a pull request to merge your changes into the main repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
