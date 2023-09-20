@@ -51,7 +51,7 @@ cd ../client
 
 # Install Client Dependencies
 npm install
-```
+
 
 # Set Up Environment Variables
 # In the server folder, create a .env file to store your environment variables.
@@ -60,7 +60,7 @@ npm install
 # In the server folder in "server.config.js" file, you will need to define the following variables:
 # - database.port : your mongoDB port.
 # - database.name : your mongoDB name.
-
+```
 
 ## Usage
 
