@@ -1,8 +1,8 @@
-# iNotebook - A Full Stack MERN Web Application
+# App/ Project Name
 
-![iNotebook Logo](https://yourwebsite.com/path-to-your-logo.png)
+![App Logo](https://yourwebsite.com/path-to-your-logo.png)
 
-Welcome to iNotebook, a powerful and user-friendly web application built using the MERN stack (MongoDB, Express, React, and Node.js). iNotebook allows you to create an account, securely log in, and manage your notes effortlessly. With a sleek and responsive UI powered by Material-UI (MUI), iNotebook offers a seamless experience for note-taking and organization.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vero, consequuntur animi dolorum possimus voluptatibus placeat libero. Perferendis, obcaecati reiciendis ea at facere commodi enim, quaerat vitae eos, cum quo!
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ Welcome to iNotebook, a powerful and user-friendly web application built using t
 
 ## Features
 
-iNotebook boasts a range of features designed to enhance your note-taking experience:
+App Name boasts a range of features designed to enhance your note-taking experience:
 
 - **User Authentication**: Secure registration and login functionality to protect your notes.
 - **Note Management**: Create, update, and delete notes effortlessly.
@@ -34,14 +34,14 @@ Before you begin, ensure you have met the following requirements:
 
 ## Getting Started
 
-Follow these steps to get iNotebook up and running on your local machine:
+Follow these steps to get App Name up and running on your local machine:
 
 ```bash
 # Clone the Repository
-git clone https://github.com/nchhillar2004/iNotebook.git
+git clone https://github.com/nchhillar2004/First-server-api.git
 
 # Navigate to the Server Folder
-cd iNotebook/server
+cd First-server-api/server
 
 # Install Server Dependencies
 npm install
