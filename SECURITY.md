@@ -2,11 +2,11 @@
 
 ## Reporting a Vulnerability
 
-At iNotebook, we take security seriously. If you believe you have discovered a security vulnerability in our application or website, please help us by following these steps:
+At App Name, we take security seriously. If you believe you have discovered a security vulnerability in our application or website, please help us by following these steps:
 
 **Do Not** create a public issue or disclosure on GitHub for security vulnerabilities. 
 
-Instead, please report the issue to me privately via email. You can reach us at [nchhillar2004@gmail.com](nchhillar2004@gmail.com). When reporting, please provide the following information:
+Instead, please report the issue to me privately via email. You can reach us at [Your Email Address](Email Link). When reporting, please provide the following information:
 
 - A detailed description of the vulnerability and its potential impact.
 - Steps to reproduce the vulnerability.
